@@ -1,0 +1,49 @@
+.keytab{height:430px; padding:100px 0px 150px;}
+.keytab h2{margin-bottom:30px;}
+.tabmenu{position:relative; display:flex; gap:10px;}
+
+.tabmenu > li > a{
+    display:block;
+    padding:10px 15px;
+    border-radius:8px;
+    background:#E9EBEE; color:#00B8FF;
+}
+.tabmenu > li:first-child .tabcon{display:block;}
+.tabmenu > li .tabcon{display:none;}
+
+.tabcon{position:absolute; left:0px; top:58px; width:100%;display:flex;}
+.con{display:flex; justify-content:space-between; align-items: center;}
+.con p{line-height:3rem;}
+.con img{width:500px; height:300px; border-radius:15px;}
+/*************************************************************/
+.keytab{height:380px; padding:60px 0px 120px;}
+.keytab h2{margin-bottom:36px; font-size:2.4rem;}
+.tabmenu > li > a{font-size:1.6rem; text-wrap:nowrap;}
+.tabcon{width:100%;}
+.con p{font-size:1.8rem; line-height:2.6rem;}
+.con img{width:400px; height:240px;}
+/*************************************************************/
+.con p{min-width:300px; text-wrap:nowrap;}
+.con li{width:400px;}
+.con li img{width:100%; height:auto;}
+/*************************************************************/
+.keytab{height:360px;}
+
+
+
+<section class="keytab">
+            <div class="sizebox">
+                <h2>쏘카로 여유로워진 삶</h2>
+                <ul class="tabmenu">
+                    <li class="clickbg">
+                        <a href="javascript:void()" title="#24시간언제나">#24시간언제나</a>
+                        <div class="tabcon">
+                            <ul class="con">
+                                <li><p>한밤중이나 주말에도 스마트폰으로<br>시간에 구애받지 않고<br>쏘카와 함께 이동하세요.</p></li>
+                                <li><img src="./images/tab01.png" alt="탭이미지1"></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
